@@ -1,3 +1,10 @@
 Minesweeper game
 programmed in Java by Jessica Ims
 Spring 2014
+
+
+The object of the game is to uncover (click on) all cells in a grid that do not contain “mines”.  
+Upon being clicked, each grid cell either displays the number of adjacent cells that contain mines or “X”, denoting that the clicked-on cell contained a mine.  
+My version of the game has a 10 by 10 grid.  There are 8 levels: level 1 has 5 mines, level 2 has 7 mines, level 3 has 9 mines, level 4 has 11 mines, level 5 has 13 mines, level 6 has 15 mines, level 7 has 17 mines, and level 8 has 19 mines. At the completion of each level, the game board resets at the next level.  For each level, the player has a certain number of lives, aka a number of times the player can click on a mine and still continue the game.  For levels 1 and 2, the player has 2 lives; for levels 3 and 4, the player has 3 lives; for levels 5, 6, and 7, the player has 4 lives; for level 8, the player has 5 lives.  If the player uses up all the lives, the game is over.  If the player completes all 8 levels, the game is won.  A message bar above the grid informs the player of the current level and the number of remaining lives.  The message bar also informs the player if the game is won or lost.  
+
+To begin the game, the player types javac MineSweeper.java and then types java MineSweeper on the command line.  The Minesweeper GUI opens and the player begins at level 1.
